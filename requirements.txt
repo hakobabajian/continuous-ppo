@@ -1,0 +1,4 @@
+krpc==0.5.3
+numpy==1.26.4
+torch==2.2.2
+matplotlib==3.9.1
