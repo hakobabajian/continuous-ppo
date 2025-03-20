@@ -49,7 +49,7 @@ Each simulation step duration is defined by a minimum value in the class constru
 - returns observation array, reward score, and done boolean
 
 #### Reward Function
-The reward function decides the reward given to the previously chosen action of the model based on the current altitude of the aircraft. Greater rewards were given to the target altitude of about 30m above the runway and scaled linearly (sea-level is about 70m). The following plot depicts reward function used for training this model:
+The reward function decides the reward given to the previously chosen action of the model based on the current altitude of the aircraft. Greater rewards were given to the target altitude of about 30m above the runway and scaled linearly (the runway is at about 70m above sea-level). The following plot depicts reward function used for training this model:
 <p align="center">
   <img src="tmp/documentation/reward_function.png" width="700">
 </p>
