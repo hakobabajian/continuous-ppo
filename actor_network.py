@@ -10,7 +10,6 @@ Actor Network Class
 ------------
 Creates a neural network with pytorch: observation layer (3x128), hidden layer (128x128), and action layer (128x1).
 The network is continuous, whose action space is a single decimal value which in this case controls the vessel's pitch.
-Class inspired by Github user: philtabor
 """
 
 

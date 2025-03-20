@@ -12,7 +12,6 @@ Chooses policy or action.
 Contains learning algorithm and facilitates network updates. PPO learning algorithm contains entropy coefficient term,
 on line 116, this term introduces some randomness to the network updates to prevent the networks from collapsing
 onto a single policy too early in the learning process. Attention to this hyper-parameter has proven to be essential.
-Class inspired by Github user: philtabor
 """
 
 

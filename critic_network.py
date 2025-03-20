@@ -10,7 +10,6 @@ Creates a neural network with pytorch: observation layer (3x128), hidden layer (
 The network is continuous, and it's critic value discerns quality of the actor network's previous action or policy.
 The advantage of an Actor-Critic method, where actor and critic networks work in tandem, is that the critic network's 
 discernments dampen the potentially severe updates that could be made to the network which would cause perturbation. 
-Class inspired by Github user: philtabor
 """
 
 

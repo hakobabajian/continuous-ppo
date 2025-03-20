@@ -5,7 +5,7 @@ Memory Class
 ------------
 Serves as memory for the PPO learning algorithm. Records, shuffles, and returns the parameters of each environment step
 to facilitate mini-batch stochastic learning of the PPO algorithm. This limits the number of network updates with the 
-goal of avoiding perturbations. Class inspired by Github user: philtabor
+goal of avoiding perturbations.
 """
 
 
