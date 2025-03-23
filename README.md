@@ -1,6 +1,6 @@
 # Continuous Proximal Policy Optimization 
 ## Objective
-This project aims to train a continuous ppo, a reinforcement learning model, to control the pitch authority of an aircraft in the popular aerospace simulator, Kerbal Space Program. The goal is to train the model such that it can pilot the aircraft to take-off from the runway, and maintain a reasonable altitude without going out of bounds for 30 seconds.
+This project aims to train a continuous ppo, a reinforcement learning model, to control the pitch authority of an aircraft in the popular aerospace simulator, Kerbal Space Program. The goal is to train the model such that it can pilot the aircraft to take-off from the runway, and maintain a reasonable altitude without going out of bounds for 30 seconds. The gradual improvement in pitch control achieved after many hours of training is documented below.
 
 #### Dependencies
 This project uses the following python libraries:
@@ -8,10 +8,10 @@ This project uses the following python libraries:
 - krpc: for programmatic control of aircraft in the aerospace simulation software
 
 ## Technical Overview
-The following is a very high-level explanation of the reinforcement learning / machine learning methods and practices used in this project.
+The following is a very high-level explanation of the reinforcement learning methods and practices used in this project.
 #### Actor-Critic Networks
 Actor-Critic networks are a pair of two distinct neural networks which operate in tandem to optimize the training protocol. Both networks receive the same inputs, their distinction is defined by what they output:
-- The Actor network outputs the chosen action of the machine learning model
+- The Actor network outputs the chosen action of the reinforcement learning model
 - The Critic network outputs an evaluation of the previous action taken by the Actor network
 
 There are many reinforcement learning models which train Actor-Critic networks, one of which is Proximal Policy Optimization (PPO)
